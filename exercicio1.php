@@ -1,7 +1,7 @@
 <?php
 
 function mensagemBoasVindas(){
-    return "boas vindas!" ;
+    return "boas vindas!";
     
 }
 
