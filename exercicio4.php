@@ -1,11 +1,10 @@
 <?php
 
+$numero = 20;
 function dobrarnumero($numero){
      $resultado = $numero * 2;
-     return $resultado;
+     echo "Número: $numero\n";
+echo "Dobro do número: $resultado ";
 }
 
-$numero = readline("Digite um numero para dobrar ele: ");
-echo "Número: $numero\n";
-echo "Dobro do número: ", dobrarnumero($numero);
 ?>
